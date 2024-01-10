@@ -74,6 +74,24 @@ new_dict = dict(name="Rohit",age=32,country="India")
 print(new_dict)
 # {'name': 'Rohit', 'age': 32, 'country': 'India'}
 
+myfamily = {
+  "child1" : {
+    "name" : "Emil",
+    "year" : 2004
+  },
+  "child2" : {
+    "name" : "Tobias",
+    "year" : 2007
+  },
+  "child3" : {
+    "name" : "Linus",
+    "year" : 2011
+  }
+}
+
+print(myfamily["child2"]["name"])
+print(myfamily["child3"]["year"])
+
 # Dictionary Methods :
 # Python has a set of built-in methods that you can use on dictionaries.
 
@@ -89,5 +107,7 @@ print(new_dict)
 # setdefault()	Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
 # update()	Updates the dictionary with the specified key-value pairs
 # values()	Returns a list of all the values in the dictionary
+
+
 
 
