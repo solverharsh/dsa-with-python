@@ -6,5 +6,5 @@ for num in range(1 , n+1):
         sum_even+=num
 print(f"Sum of even numbers till n is : {sum_even}")
 
-# n =11
-# 2+4+6+8+10
+# n =11  
+# 2+4+6+8+10 = 30 
